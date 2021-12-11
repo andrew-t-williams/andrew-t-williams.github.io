@@ -9,8 +9,9 @@ Soon to actually exist!
 ### Local Testing Steps
 
 * Checkout gh-pages branch
-* bundle install
-* bundle exec jekyll serve
+* ```bundle update github-pages``` (Optional to keep dependencies up to date)
+* ```bundle install```
+* ```bundle exec jekyll serve```
 * Goto 'http://localhost:4000/'
 
 ### Documentation
