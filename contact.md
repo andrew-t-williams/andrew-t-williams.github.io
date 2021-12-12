@@ -54,13 +54,13 @@ permalink: /contact/
                 </a>
             </div>
             <div>
-                <a href="https://www.linkedin.com/in/andrew-t-williams/" style="float: left; margin-right: 10px; margin-top: 4px;">
+                <a href="https://www.linkedin.com/in/andrew-t-williams" style="float: left; margin-right: 10px; margin-top: 4px;">
                     <h1>
                         <span class="iconify" data-icon="akar-icons:linkedin-fill" style="color: white;"></span>
                     </h1>
                 </a>
                 <pre style="width: calc(100% - 100px); float: left;"><code>linkedin.com/in/andrew-t-williams/</code></pre>
-                <a href="https://www.linkedin.com/in/andrew-t-williams/" style="float:right;">
+                <a href="https://www.linkedin.com/in/andrew-t-williams" style="float:right;">
                     <span class="iconify" data-icon="akar-icons:link-out" style="color: white; height: 25px; width: 25px; margin-top: 6px;"></span>
                 </a>
             </div>
