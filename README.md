@@ -3,6 +3,8 @@
 Soon to actually have some!
 
 ## Website additions to make:
+- [x] Set up local dev with Jekyll
+- [x] Set up gh-pages
 - [ ] Clean up front page to be a welcome page (header, sidebar, card-style blog posts)
 - [ ] Subheader with quick links:
   - [ ] Add Linkd in
@@ -13,8 +15,8 @@ Soon to actually have some!
 - [ ] Create project cards as 'blog posts' on main page that take you to their respective pages
   - [ ] Projects pages have a shortened header with dropdown to see main headers quicklinks
   - [ ] Discovery: Each project is a branch of this repo? Or new repo that this repo references?
-- [x] Set up local dev with Jekyll
-- [x] Set up gh-pages
+- [ ] Light & Dark mode
+
 
 ## Setup Notes:
 ### Local Testing Steps
