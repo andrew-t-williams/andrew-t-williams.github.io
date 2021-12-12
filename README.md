@@ -24,7 +24,7 @@ Soon to actually have some!
 * ```bundle update github-pages``` (Optional to keep dependencies up to date)
 * ```bundle install```
 * ```bundle exec jekyll serve```
-* Goto 'http://localhost:4000/'
+* Goto 'http://localhost:4000/portfolio/'
 
 ### Documentation
 
