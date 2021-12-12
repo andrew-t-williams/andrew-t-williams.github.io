@@ -13,33 +13,35 @@
     {% include head-custom.html %}
   </head>
   <body>
-    <div id="header">
-        <div style="margin: 20px;">
-            <a class="header-link"><h3 class="left">{{ site.name }}</h3></a>
-            <div class="right">
-                <a href="/portfolio/projects" class="header-link">Projects</a>
-                <a href="/portfolio/about" class="header-link">About</a>
-                <a href="/portfolio/contact" class="header-link">Contact</a>
-            </div>
-        </div>
-    </div>
+    <div class="body-wrapper"></div>
+      <div id="header">
+          <div style="margin: 20px;">
+              <a class="header-link"><h3 class="left">{{ site.name }}</h3></a>
+              <div class="right">
+                  <a href="/portfolio/projects" class="header-link">Projects</a>
+                  <a href="/portfolio/about" class="header-link">About</a>
+                  <a href="/portfolio/contact" class="header-link">Contact</a>
+              </div>
+          </div>
+      </div>
 
-    <div class="content">
-        <div class="welcome-header">
-            <div id="title" class="wrapper" style="margin: 20px auto;">
-                <h1>{{ site.title | default: site.github.repository_name }}</h1>
-                <p>{{ site.description | default: site.github.project_tagline }}</p>
-            </div>
-        </div>
-    
-        <div class="wrapper" style="margin-top: 20px;">{{ content }}</div>
-    </div>
-    
+      <div class="content">
+          <div class="welcome-header">
+              <div id="title" class="wrapper" style="margin: 20px auto;">
+                  <h1>{{ site.title | default: site.github.repository_name }}</h1>
+                  <p>{{ site.description | default: site.github.project_tagline }}</p>
+              </div>
+          </div>
+      
+          <div class="wrapper" style="margin-top: 20px;">{{ content }}</div>
+      </div>
+      
 
-    <div class="footer">
-        <div style="margin: 20px;">
-          <span class="credits left"><small>Site and projects maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></small></span>
-          <span class="credits right"><small><a href="{{ site.github.repository_url }}">View on GitHub</a></small></span>
+      <div class="footer">
+          <div style="margin: 20px;">
+            <span class="credits left"><small>Site and projects maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></small></span>
+            <span class="credits right"><small><a href="{{ site.github.repository_url }}">View on GitHub</a></small></span>
+          </div>
         </div>
       </div>
   </body>
