@@ -13,7 +13,7 @@ permalink: /contact/
                 <h1 style="font-size: 35px;">{{ site.name }}<span class="terminal">_</span></h1>
             </div>
             <div style="width: 30%; float: right; background-color: #161b22; padding: 20px 100vw 20px 10%; margin: -20px -100vw -20px -10%;">
-                <img style="border-radius: 50%; width: -webkit-fill-available;" src="/portfolio/assets/images/profile.jpg">
+                <img style="border-radius: 50%; width: -moz-available; width: -webkit-fill-available;" src="/portfolio/assets/images/profile.jpg">
             </div>
         </div>
     </div>
