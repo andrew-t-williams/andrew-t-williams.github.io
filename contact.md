@@ -59,7 +59,7 @@ permalink: /contact/
                         <span class="iconify" data-icon="akar-icons:linkedin-fill" style="color: white;"></span>
                     </h1>
                 </a>
-                <pre style="width: calc(100% - 100px); float: left;"><code>linkedin.com/in/andrew-t-williams/</code></pre>
+                <pre style="width: calc(100% - 100px); float: left;"><code>linkedin.com/in/andrew-t-williams</code></pre>
                 <a href="https://www.linkedin.com/in/andrew-t-williams" style="float:right;">
                     <span class="iconify" data-icon="akar-icons:link-out" style="color: white; height: 25px; width: 25px; margin-top: 6px;"></span>
                 </a>
