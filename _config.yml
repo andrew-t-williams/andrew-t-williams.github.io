@@ -30,7 +30,7 @@ description: >-
 
 domain: andrew-t-williams.github.io     # if you want to force HTTPS, put down the domain without the http: e.g. example.com
 url: https://andrew-t-williams.github.io # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: /projects/      # place folder name if site is served in subfolder
+baseurl: /portfolio/      # place folder name if site is served in subfolder
 
 # enables {{ site.github.<> }} liquid code
 plugins:
