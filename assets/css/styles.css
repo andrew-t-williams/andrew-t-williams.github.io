@@ -18,6 +18,10 @@ body {
     padding-top: 20px;
 }
 
+.wrapper {
+    min-width: 300px;
+}
+
 .footer {
     background-color: #161b22;
     width: 100vw;
@@ -60,16 +64,36 @@ a {
 }
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 8px 0px rgb(0 0 0);
     transition: 0.3s;
     background: #3e3e3e;
     border-radius: 10px;
-  }
+}
   
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-  
-  .card-container {
+.card:hover {
+    box-shadow: 0px 0px 8px 0px #1f640e;
+}
+
+.card-container {
     padding: 16px;
-  }
+}
+
+/* .code {
+    background-color: #52525287;
+} */
+
+.row {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 5%;
+}
+
+.terminal {
+    animation: blink 1s infinite step-end;
+}
+
+@keyframes blink {
+    from, to { opacity: 0; }
+
+    50% {opacity: 1;}
+}
