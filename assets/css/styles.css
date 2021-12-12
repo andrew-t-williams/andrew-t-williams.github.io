@@ -6,6 +6,7 @@ body {
 
 .body-wrapper {
     overflow-x: hidden;
+    position: relative;
 }
 
 .welcome-header {
