@@ -22,23 +22,30 @@ name: Andrew Williams
 job-title: Full Stack Developer
 
 title: Hey, I'm Andrew. 
-email: andrew.th.williams@gmail.com
-phone: +1 250-327-2724
 description: >-
   I'm a Full Stack Developer living in Nanaimo, BC. Sometimes when I'm bored I build things and put them here.
+about_me: >-
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vestibulum rhoncus dignissim. Cras viverra ac purus ac dictum. Aliquam finibus quam quis ligula convallis, vitae iaculis nulla congue. Nam cursus ornare risus, eget aliquam tellus consectetur non.
 
+
+email: andrew.th.williams@gmail.com
+phone: +1 250-327-2724
+github_url: https://github.com/andrew-t-williams
+github_url_short: github.com/andrew-t-williams
+linkedin_url: https://www.linkedin.com/in/andrew-t-williams
+linkedin_url_short: linkedin.com/in/andrew-t-williams
+
+timezone_note: Nanaimo, BC - Pacific time zone (GMT-8)
 
 domain: andrew-t-williams.github.io     # if you want to force HTTPS, put down the domain without the http: e.g. example.com
 url: https://andrew-t-williams.github.io # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: /portfolio/      # place folder name if site is served in subfolder
+baseurl: {{ site.baseurl }}      # place folder name if site is served in subfolder
 
 # enables {{ site.github.<> }} liquid code
 plugins:
   - "jekyll-github-metadata"
 
 
-twitter_username: jekyllrb
-github_username:  jekyll
 
 # Build settings
 theme: jekyll-theme-midnight
