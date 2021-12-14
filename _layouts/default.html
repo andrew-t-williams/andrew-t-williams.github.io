@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="{{ site.lang | default: " en-US" }}">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  {% seo %}
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+  <script src="{{ '/assets/js/respond.js' | relative_url }}"></script>
+  <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  {% include head-custom.html %}
+</head>
+
+<body>
+  <div class="body-wrapper">
+    <div id="header">
+      <div style="margin: 20px;">
+        <a href="/" class="header-link"><span class="left iconify" data-icon="bx:bx-home-alt" style="color: #b6b6b6; height: 21px; width: auto; margin-right: 20px;"></span>
+          <h3 class="left" style="">{{ site.name }}</h3>
+        </a>
+        <div class="right">
+          <a href="/projects" class="header-link">Projects</a>
+          <a href="/resume" class="header-link">Resume</a>
+          <a href="/contact" class="header-link">Contact</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrapper content">{{ content }}</div>
+
+    <div class="footer">
+      <div style="margin: 20px;">
+        <span class="credits left"><small>Site and projects maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></small></span>
+        <span class="credits right"><small><a href="{{ site.github.repository_url }}">View on GitHub</a></small></span>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>

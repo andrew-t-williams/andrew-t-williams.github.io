@@ -1,0 +1,171 @@
+
+
+body {
+    padding: 0px;
+}
+
+.body-wrapper {
+    overflow-x: hidden;
+    position: relative;
+}
+
+.welcome-header {
+    background-color: #161b22;
+    width: calc(100vw);
+    margin-top: -84px;
+    padding: 75px 0px 100px 0px;
+    overflow: auto;
+}
+
+.content {
+    min-height: calc(100vh - 64px - 60px - 20px);
+    margin-top: 64px;
+    padding-top: 20px;
+}
+
+.wrapper {
+    min-width: 300px;
+}
+
+.footer {
+    background-color: #161b22;
+    width: 100vw;
+    height: 60px;
+    /* padding: 20px 50px 20px 50px; */
+    /* margin-left: -20px; */
+    overflow: hidden;
+    /* flex-shrink: 0; */
+}
+
+section #title {
+    margin: 0px;
+}
+
+section {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.credits {
+    color: #d7cfbe !important;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+a {
+    color: #34a55c;
+}
+
+.header-link {
+    color: #b6b6b6;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.card {
+    box-shadow: 0px 0px 8px 0px rgb(0 0 0);
+    transition: 0.3s;
+    background: #3e3e3e;
+    border-radius: 10px;
+}
+  
+.card:hover {
+    box-shadow: 0px 0px 8px 0px #1f640e;
+}
+
+.card-container {
+    padding: 16px;
+}
+
+/* .code {
+    background-color: #52525287;
+} */
+
+.row {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 5%;
+}
+
+.terminal {
+    animation: blink 1s infinite step-end;
+}
+
+@keyframes blink {
+    from, to { opacity: 0; }
+
+    50% {opacity: 1;}
+}
+
+.blog-wrapper-grey {
+    background: #7a7a7a;
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 140px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -75px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "projects resume contact"
+      "more more more"
+      ". . .";
+  }
+  
+.projects { grid-area: projects; }
+
+.resume { grid-area: resume; }
+
+.contact { grid-area: contact; }
+
+.more { grid-area: more; }
+  

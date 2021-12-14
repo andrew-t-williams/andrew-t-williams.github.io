@@ -1,0 +1,38 @@
+---
+layout: default
+title:  "Moodi"
+description: "A social media application for Android that enables you to share how you are feeling throughout the day."
+date:   2019-08-01 15:00:00 -0800
+---
+
+# Moodi
+
+### A Social Media Application
+
+This was a university project for CMPUT 301 from late 2019 that was my first exposure to creating a mobile application. I worked on this project with Steven Lagrange and Jarrod Los.
+
+<p><a href="">GitHub Repo</a></p>
+<p><a href="/2021/03/01/eudaemonia.html">Follow-up application (much better)</a></p>
+
+
+<div class="blog-wrapper-grey">
+    <div style="padding: 10px">
+        <img src="/assets/images/moodi/ui-screens-0.png" width="100%">
+        <hr style="margin-top: 20px;">
+        <img src="/assets/images/moodi/ui-screens-6.png" width="100%">
+        <hr style="margin-top: 20px;">
+        <img src="/assets/images/moodi/ui-screens-3.png" width="100%">
+        <hr style="margin-top: 20px;">
+        <img src="/assets/images/moodi/ui-screens-2.png" width="100%">
+        <hr style="margin-top: 20px;">
+        <img src="/assets/images/moodi/ui-screens-1.png" width="100%">
+        <hr style="margin-top: 20px;">
+        <img src="/assets/images/moodi/ui-screens-4.png" width="100%">
+        <hr style="margin-top: 20px;">
+        <img src="/assets/images/moodi/ui-screens-5.png" width="100%">
+        <hr style="margin-top: 20px;">
+        <embed src="/assets/images/moodi/uml-diagram.pdf" width="100%" height="600px" 
+ type="application/pdf">
+    </div>
+</div>
+
