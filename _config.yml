@@ -39,7 +39,7 @@ timezone_note: Nanaimo, BC - Pacific time zone (GMT-8)
 
 domain: andrew-t-williams.github.io     # if you want to force HTTPS, put down the domain without the http: e.g. example.com
 url: https://andrew-t-williams.github.io # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: {{ site.baseurl }}      # place folder name if site is served in subfolder
+baseurl: /portoflio      # place folder name if site is served in subfolder
 
 # enables {{ site.github.<> }} liquid code
 plugins:
