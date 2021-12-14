@@ -37,7 +37,7 @@ permalink: /contact/
                     </button>
                 </div>
             </div>
-            <div style="float: left; width: 100%;">
+            <!-- <div style="float: left; width: 100%;">
                 <a href="tel:{{ site.phone }}" style="float: left; margin-right: 10px; margin-top: 4px;">
                     <h1>
                         <span class="iconify" data-icon="el:phone-alt" style="color: white;"></span>
@@ -52,7 +52,7 @@ permalink: /contact/
                         <span class="iconify" data-icon="clarity:copy-to-clipboard-line" style="color: white; height: 25px; width: 25px; margin-top: 6px;"></span>
                     </button>
                 </div>
-            </div>
+            </div> -->
             <div style="float: left; width: 100%;">
                 <a href="{{ site.github_url }}" style="float: left; margin-right: 10px; margin-top: 4px;" target="_blank" rel="noopener noreferrer">
                     <h1>
