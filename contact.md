@@ -12,7 +12,7 @@ permalink: /contact/
                 <h1 style="font-size: 35px; color: #34a55c; font-family: monospace;">{{ site.name }}<span class="terminal">_</span></h1>
             </div>
             <div style="width: 30%; float: right; background-color: #161b22; padding: 20px 100vw 20px 10%; margin: -20px -100vw -20px -10%;">
-                <img style="border-radius: 50%; width: -moz-available; width: -webkit-fill-available;" src="{{ site.baseurl }}/assets/images/profile.jpg">
+                <img style="border-radius: 50%; width: -moz-available; width: -webkit-fill-available;" src="/assets/images/profile.jpg">
             </div>
         </div>
     </div>
