@@ -12,7 +12,7 @@ The project tab contains a complete list of project.
     <ul style="padding: 0; list-style: none;">
     {% for post in site.posts %}
         <li style="margin-bottom: 20px;">
-            <a href="/here/{{ post.url }}">
+            <a href="{{ site.baseurl }}{{ post.url }}">
                 <div class="card">
                     <div class="card-container">
                         <h4 style="float: right;">{{ post.date }}</h4>
