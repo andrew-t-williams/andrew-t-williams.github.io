@@ -7,7 +7,11 @@ date:   2021-03-01 16:00:00 -0800
 
 <img src="{{ site.baseurl }}/assets/images/Eudaemonia/Logo1.jpeg" width="100%">
 
-<b><i>Eudaemonia</i></b>  [<a href="https://github.com/glnnrhodes/Eudaemonia">Repo</a>] seeks to motivate and engage users to improve their mental and physical health by providing a social platform to share health and wellness activities, as well as gamify the experience to encourage sustained growth.
+<b><i>Eudaemonia</i></b> seeks to motivate and engage users to improve their mental and physical health by providing a social platform to share health and wellness activities, as well as gamify the experience to encourage sustained growth.
+
+This was a university project for ECE 493 from early 2021 that was the capstone for my Software Engineering degree at University of Alberta. I worked on this project with Glenn Rhodes and Jian Wee.
+
+<p><a href="https://github.com/glnnrhodes/Eudaemonia">GitHub Repo</a></p>
 
 <div>
     <img src="{{ site.baseurl }}/assets/images/Eudaemonia/Slide6.png" width="100%">

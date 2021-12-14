@@ -1,27 +1,26 @@
 ---
-layout: welcome
+layout: landing
 ---
 
-<div style="height: 50px;"></div>
-
-## Recent Projects and Updates
-
-The project tab contains a complete list of project.
-
-<div>
-    <ul style="padding: 0; list-style: none;">
-    {% for post in site.posts %}
-        <li style="margin-bottom: 20px;">
-            <a href="{{ site.baseurl }}{{ post.url }}">
-                <div class="card">
-                    <div class="card-container">
-                        <h4 style="float: right;">{{ post.date }}</h4>
-                        <h3><b>{{ post.title }}</b></h3> 
-                        <h4>{{ post.description }}</h4>
-                    </div>
-                </div>
-            </a>
-        </li>
-    {% endfor %}
-    </ul>
+<div class="container">
+    <div style="text-align: center; padding: 65px;" class="projects">
+        <a href="{{ site.baseurl }}/projects">
+            <span style="width: 100%; height: auto;" class="iconify" data-icon="bi:code-slash"></span>
+            Projects
+        </a>
+    </div>
+    <div style="text-align: center; padding: 60px;" class="resume">
+        <a href="{{ site.baseurl }}/resume">
+            <span style="width: 100%; height: auto;" class="iconify" data-icon="cil:contact"></span>
+            Resume
+        </a>
+    </div>
+    <div style="text-align: center; padding: 70px;" class="contact">
+        <a href="{{ site.baseurl }}/contact">
+            <span style="width: 100%; height: auto;" class="iconify" data-icon="bi:send"></span>
+            Contact
+        </a>
+    </div>
+    <div style="text-align: center;" class="more">
+    </div>
 </div>

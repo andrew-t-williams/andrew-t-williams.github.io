@@ -9,7 +9,7 @@ date:   2019-08-01 15:00:00 -0800
 
 ### A Social Media Application
 
-This was a university project for CMPUT 301 from late 2019 that was my first exposure to creating mobile applications. I worked on this project with Steven Lagrange, and Jarrod Los.
+This was a university project for CMPUT 301 from late 2019 that was my first exposure to creating a mobile application. I worked on this project with Steven Lagrange and Jarrod Los.
 
 <p><a href="">GitHub Repo</a></p>
 <p><a href="{{ site.baseurl }}/2021/03/01/eudaemonia.html">Follow-up application (much better)</a></p>
