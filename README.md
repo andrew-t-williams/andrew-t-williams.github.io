@@ -1,6 +1,6 @@
 # Portfolio Website
 
-Check it out [here](https://andrew-t-williams.github.io/portfolio/)!
+Check it out at [andrew-williams.dev](https://andrew-williams.dev)!
 
 ### Local Development Setup
 * Checkout the [gh-pages](https://github.com/andrew-t-williams/portfolio/tree/gh-pages) branch of this repo
